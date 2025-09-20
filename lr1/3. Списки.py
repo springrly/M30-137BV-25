@@ -14,4 +14,5 @@ d = numbers.index(1)
 e = numbers.copy()
 copy.deepcopy(numbers)
 numbers.clear()
+
 print(numbers, e)

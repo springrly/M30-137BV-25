@@ -7,4 +7,9 @@ assert "Alice" not in scores
 scores.keys()
 scores.values()
 
-print(scores, scores.get("Bob"), scores.get("Dave"), len(scores), scores.keys(), scores.values())
+print(scores)
+print(scores.get("Bob"))
+print(scores.get("Dave"))
+print(len(scores))
+print(scores.keys())
+print(scores.values())

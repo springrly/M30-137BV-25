@@ -7,6 +7,6 @@ except TypeError:
 print(t)
 
 t2 = (4,5)
-
 t3 = t + t2
+
 print(t3, t2.count(3), t2.index(4))
